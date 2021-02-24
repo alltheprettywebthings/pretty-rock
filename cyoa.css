@@ -1,0 +1,32 @@
+/*These are the mobile-only styles*/
+@media screen and (max-width:767px){
+}
+/*Desktop-only styles*/
+@media screen and (min-device-width:768px){
+}
+/*Universal styles*/
+  .game{
+
+  }
+  .game .stats{
+
+  }
+  .game .character{
+
+  }
+  .game .character .name{
+
+  }
+  .game .character .name .first{
+
+  }
+  .game .character .name .last{
+    
+  }
+  .game .dialog{
+
+  }
+  .game .controls{
+
+  }
+/*Styles that govern pseudo-js behavior*/

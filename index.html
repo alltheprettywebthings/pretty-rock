@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+<!--This project uses sounds by the following user;
+- LittleRobotSoundFactory ( https://freesound.org/people/LittleRobotSoundFactory/ )
+and is in no way endorsed by said user.-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+  <section class="game">
+      <div class="stats">
+        <div>HP: <span id="hp_js"></span></div>
+        <div>STR: <span id="str_js"></span></div>
+        <div>PER: <span id="per_js"></span></div>
+        <div>CON: <span id="con_js"></span></div>
+        <div>INT: <span id="int_js"></span></div>
+        <div>DEX: <span id="dex_js"></span></div>
+        <div>CHA: <span id="cha_js"></span></div>
+        <div>$ <span id="usd_js"></span></div>
+      </div>
+      <div class="character">
+        <div class="image">
+        <img
+          src="walk_1.gif"
+          alt="A video game character walking" class="display-none" id="player-walk">
+        </div>
+        <div class="name">
+          <span id="first"></span> 
+          <span id="last"></span>
+        </div>
+      </div>
+      </section>
+      <section class="dialog" id="rpgDialog">
+      </section>
+      <section class="controls" id="rpgOptions">
+        <button class="rpgBtns" id="b1" data-choice=""></button>
+        <button class="rpgBtns" id="b2" data-choice=""></button>
+        <button class="rpgBtns" id="b3" data-choice=""></button>
+        <button class="rpgBtns" id="b4" data-choice=""></button>
+      </section>
+  </section>
+<script type="text/javacsript" src="cyoa.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+</body>
+</html>

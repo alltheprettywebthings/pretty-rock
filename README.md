@@ -1,1 +1,2 @@
-# pretty-rock
+# cyoa
+A choose-your-own-adventure game template.
